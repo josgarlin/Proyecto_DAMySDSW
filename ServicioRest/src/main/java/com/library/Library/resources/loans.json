@@ -1,0 +1,31 @@
+[
+  {
+    "dni": "77975727T",
+    "isbn":"9788434444959",
+    "location": "Facultad de Matematicas, Universidad de Sevilla",
+    "start_date": "10/05/2022",
+    "end_date": "30/05/2022"
+  },
+   {
+    "dni": "48124895V",
+    "isbn":"9788490743386",
+    "location": "Facultad de Filología, Universidad de Sevilla",
+    "start_date": "10/05/2022",
+    "end_date":"30/05/2022"
+  },
+ 
+   {
+    "dni": "77861409S",
+    "isbn":"9788490743386",
+    "location": "ETSI, Universidad de Sevilla",
+    "start_date": "10/05/2022",
+    "end_date": "30/05/2022"
+  },
+  {
+    "dni": "77861409S",
+    "isbn":"9780195105193",
+    "location": "Facultad de Matematicas, Universidad de Sevilla",
+    "start_date": "10/05/2022",
+    "end_date": "30/05/2022"
+  }
+]

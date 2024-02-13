@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f_menu"
+    android:id="@+id/am_cl_1"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv_0.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glh_0.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/am_tv_wel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="25dp"
+        android:text="@string/welcome"
+        android:textColor="#3F4359"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/am_ib_logout"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="15dp"
+        android:background="#00000009"
+        android:src="@drawable/ic_exit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+        android:id="@+id/am_gl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:layout_marginTop="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/am_b_search"
+            android:layout_width="136dp"
+            android:layout_height="120dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="40dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:backgroundTint="#AED581"
+            android:drawableBottom="@drawable/glass"
+            android:text="@string/search" />
+
+        <TextView
+            android:id="@+id/am_tv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_gravity="center"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="@string/search"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/am_b_location"
+            android:layout_width="136dp"
+            android:layout_height="120dp"
+            android:layout_gravity="right"
+            android:layout_marginEnd="40dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:backgroundTint="#FF5EBE"
+            android:drawableBottom="@drawable/location"
+            android:text="@string/location" />
+
+        <TextView
+            android:id="@+id/am_tv_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:text="@string/location"
+            android:textSize="20dp" />
+
+    </GridLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/am_navbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="#fda085"
+        android:alpha="1"
+        app:itemIconTint="#202020"
+        app:itemTextColor="#4E4E4E"
+        app:menu="@menu/navigation_items"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

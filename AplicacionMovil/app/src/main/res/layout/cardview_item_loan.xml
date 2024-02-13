@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cdv_item"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    cardView:cardCornerRadius="30dp"
+    cardView:cardElevation="30dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:id="@+id/cdv_ll1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/cdv_iv_th"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:background="#516767"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hp_cover" />
+
+        <LinearLayout
+            android:id="@+id/cdv_ll2"
+            android:layout_width="252dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cdv_tv_title"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:gravity="left"
+                android:textColor="#36404E"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/cdv_tv_isbn"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#36404E"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/cdv_tv_fecFin"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#36404E"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

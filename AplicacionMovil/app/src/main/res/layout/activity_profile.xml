@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f_menu"
+    android:id="@+id/ap_cl"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:id="@+id/ap_ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/ap_vbox"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="120dp"
+        android:background="#5C7898"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/ap_tv_role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textSize="22sp"
+        android:text="Estudiante"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/ap_vbox" />
+
+    <ImageView
+        android:id="@+id/profile_photo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="@drawable/charly"
+        app:cornerRadius="30dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ScrollView
+        android:id="@+id/ap_sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ap_ll2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/ap_tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="30dp"
+                android:text="Nombre"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#126873" />
+
+            <TextView
+                android:id="@+id/ap_tv_cname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="50dp"
+                android:text="Carlos"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textColor="#838080" />
+
+                <TextView
+                    android:id="@+id/ap_tv_sr1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="30dp"
+                    android:text="Primer apellido"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#126873" />
+
+                <TextView
+                    android:id="@+id/ap_tv_csr1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:text="Rojas"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:textColor="#838080" />
+
+                <TextView
+                    android:id="@+id/ap_tv_sr2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="30dp"
+                    android:text="Segundo apellido"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#126873" />
+
+                <TextView
+                    android:id="@+id/ap_tv_csr2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:text="Palomino"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:textColor="#838080" />
+
+                <TextView
+                    android:id="@+id/ap_tv_dni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="30dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#126873"
+                    android:text="DNI" />
+
+                <TextView
+                    android:id="@+id/ap_tv_cdni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:text="77861409S"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:textColor="#838080" />
+
+                <TextView
+                    android:id="@+id/ap_tv_tlf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="30dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#126873"
+                    android:text="Teléfono" />
+
+                <TextView
+                    android:id="@+id/ap_tv_ctlf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:text="606154501"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:textColor="#838080" />
+
+                <TextView
+                    android:id="@+id/ap_tv_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="30dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#126873"
+                    android:text="Email" />
+
+                <TextView
+                    android:id="@+id/ap_tv_cemail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:text="karlosropal00@gmail.com"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:textColor="#838080" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ap_navbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="#fda085"
+        android:alpha="1"
+        app:itemIconTint="#202020"
+        app:itemTextColor="#4E4E4E"
+        app:menu="@menu/navigation_items" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

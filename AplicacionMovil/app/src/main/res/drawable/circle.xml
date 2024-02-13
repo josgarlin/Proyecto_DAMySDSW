@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" android:tint="#FFFFFF">
+
+    <!--        Color adaptable a cada título?-->
+
+<!--    <gradient-->
+<!--        android:startColor="#F8B1B1"-->
+<!--        android:endColor="#FFFFFF"-->
+<!--        android:angle="0"-->
+<!--        android:type="radial"-->
+<!--        android:useLevel="true"-->
+<!--        android:gradientRadius="50dp"-->
+<!--        android:centerX="0"-->
+<!--        android:centerY="0" />-->
+
+    <padding
+        android:bottom="5dp"
+        android:left="5dp"
+        android:right="5dp"
+        android:top="5dp" />
+</shape>

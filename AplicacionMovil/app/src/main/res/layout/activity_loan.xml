@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/aln_cl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#CDF1F1F1"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    tools:context=".LoanActivity">
+
+    <ImageView
+        android:id="@+id/aln_iv_blue"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:alpha="0.3"
+        android:scaleType="centerCrop"
+        android:background="#29B6F6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/aln_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/aln_iv_done"
+            android:layout_width="45dp"
+            android:layout_height="47dp"
+            android:src="@drawable/ic_done"
+            android:layout_marginTop="25dp"
+            app:tint="#FF737373"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/aln_tv_pending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Pendiente"
+            android:textColor="#737373"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/aln_cv1"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="15dp">
+
+            <TextView
+                android:id="@+id/aln_tv_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#126873"
+                android:text="Reserva solicitada"
+                android:layout_marginTop="20dp"
+                android:textSize="25sp"
+                android:layout_gravity="top|center"
+                />
+
+            <TextView
+                android:id="@+id/aln_tv_re"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#051B1E"
+                android:text="Recibirá una confirmación por correo electrónico con este código."
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:alpha="0.6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:textSize="17sp"
+                android:layout_gravity="center"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/aln_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#126873"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:textSize="18sp"
+            android:text="Título del libro"
+            />
+
+        <TextView
+            android:id="@+id/aln_tv_tc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#838080"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"
+            android:text="Harry Potter y la Piedra Filosofal y otras aventuras más en Hogwarts"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/aln_tv_isbn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#126873"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:textSize="18sp"
+            android:text="ISBN"
+            />
+
+        <TextView
+            android:id="@+id/aln_tv_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#838080"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:text="1234567891234"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            />
+
+        <TextView
+            android:id="@+id/aln_tv_library"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#126873"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:textSize="18sp"
+            android:text="Biblioteca"
+            />
+
+        <TextView
+            android:id="@+id/aln_tv_cl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#838080"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:text="Escuela Técnica Superior de Ingeniería (ETSI)"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+
+            />
+
+        <TextView
+            android:id="@+id/aln_tv_fecvenc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="top"
+            android:textSize="18sp"
+            android:textColor="#126873"
+            android:layout_marginTop="18dp"
+            android:text="Fecha de vencimiento"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/aln_tv_cfv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="7dp"
+            android:textColor="#838080"
+            android:text="25/11/2022 21:00:00"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/aln_b_confirm"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#A1F6DB"
+            android:elevation="30dp"
+            android:text="Confirmar reserva"
+            android:textColor="#606060"
+            android:textSize="18sp"
+            app:cornerRadius="50dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

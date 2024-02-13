@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Jhon",
+    "surname1": "Nogales",
+    "surname2": "Guaman",
+    "dni": "77975727T",
+    "rol":"admin",
+    "phone": "617666400",
+    "mail": "jhon_n.nogales@hotmail.es",
+    "password":"jhon"
+  },
+{
+    "name": "Jose Antonio",
+    "surname1": "Garcia",
+    "surname2": "Linares",
+    "dni": "48124895V",
+    "rol":"student",
+    "phone": "660454915",
+    "mail": "josgarlin1@alum.us.es",
+    "password":"jose"
+  },
+ {
+    "name": "Carlos",
+    "surname1": "Rojas",
+    "surname2": "Palomino",
+    "dni": "77861409S",
+    "rol":"student",
+    "phone": "606154501",
+    "mail": "carrojpal@alum.us.es",
+    "password":"carlos"
+  }
+]

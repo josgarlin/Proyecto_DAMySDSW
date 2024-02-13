@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SGA</string>
+    <string name="prompt_user">DNI</string>>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar Sesión</string>
+    <string name="welcome">¡Buenas tardes, Carlos!</string>
+    <string name="research">Búsqueda</string>
+    <string name="location">Localización</string>
+    <string name="fav">Favoritos</string>
+    <string name="home">Home</string>
+    <string name="loans">Préstamo</string>
+    <string name="profile">Perfil</string>
+    <string name="book_search">Búsqueda de libros</string>
+    <string name="name">Nombre</string>
+    <string name="publisher">Editorial</string>
+    <string name="author">Autor</string>
+    <string name="date">Fecha</string>
+    <string name="edition">Edición</string>
+    <string name="language">Idioma</string>
+    <string name="isbn">ISBN</string>
+    <string name="search">Buscar</string>
+    <string name="student">Estudiante</string>
+    <string name="result">Resultados:</string>
+    <string name="s_isbn">Buscar libros por su ISBN:</string>
+    <string name="title">Título</string>
+    <string name="review">Sinopsis</string>
+
+
+</resources>
